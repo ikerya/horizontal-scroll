@@ -1,0 +1,16 @@
+
+.container .item {
+    display: inline-block;
+    padding: 3px 80px;
+    background: #000;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.s-control {
+    position: absolute;
+    padding: 3px 14px;
+    background: red;
+    color: #fff;
+    border-radius: 3px;
+}

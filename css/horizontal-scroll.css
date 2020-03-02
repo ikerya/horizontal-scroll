@@ -1,0 +1,30 @@
+.s-outer {
+    position: relative;
+    overflow: hidden;
+    user-select: none;
+}
+
+.s-outer .s-control {
+    position: absolute;
+    top: 0;
+}
+
+.s-outer .s-control.s-control-left {
+    left: 0;
+}
+
+.s-outer .s-control.s-control-right {
+    right: 0;
+}
+
+.s-outer .s-control.none {
+    display: none;
+}
+
+.s-inner {
+    white-space: nowrap;
+}
+
+.s-inner.s-animated {
+    transition: all 0.2s ease-in-out;
+}
