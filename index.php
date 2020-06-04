@@ -30,6 +30,10 @@ $v = rand();
         window.addEventListener('DOMContentLoaded', () => {
             const left = document.createElement('span');
             const right = document.createElement('span');
+
+            left.innerText = '<';
+            right.innerText = '>';
+
             const controls = {
                 left,
                 right
